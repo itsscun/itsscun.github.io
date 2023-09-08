@@ -36,7 +36,7 @@ header .menu a{
 }
 
 header .menu a:hover{
-    background: linear-gradient(45deg, #bc00dd, #3a0ca3)
+    background: linear-gradient(45deg, #bc00dd, #3a0ca3);
     width:fit-content;
 }
 
