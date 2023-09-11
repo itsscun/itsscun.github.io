@@ -194,6 +194,14 @@ header .menu a:hover{
     margin: 20px 0 40px;
 }
 
+.cv {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27%;
+}
+
 .btn {
     position: relative;
     display: inline-flex;
