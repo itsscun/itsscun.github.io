@@ -96,6 +96,11 @@ header .menu a:hover{
     display: none;
 }
 
+.cv-tkt {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media (max-width: 992px) {
     .header {
         padding: 1.rem 5%; 
@@ -161,7 +166,7 @@ header .menu a:hover{
         padding-right: 10%;
     }
 
-    .cv-tkt{
+    .cv-tkt {
         display: flex;
         justify-content: space-between;
     }
