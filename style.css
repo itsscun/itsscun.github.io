@@ -160,8 +160,13 @@ header .menu a:hover{
     .home-tkt {
         padding-right: 10%;
     }
-    
+
+    .cv-tkt{
+        display: flex;
+        justify-content: space-between;
+    }
 }
+
 
 /* Presentation */
 
