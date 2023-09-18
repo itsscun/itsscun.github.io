@@ -100,7 +100,15 @@ header .menu a:hover{
     display: flex;
     justify-content: space-evenly;
 }
-
+.contain-info-menu {
+    display: flex;
+}
+.img-menu {
+    width: 315PX;
+}
+.contain-img{
+    margin-right: 10%;
+}
 @media (max-width: 992px) {
     .header {
         padding: 1.rem 5%; 
@@ -180,6 +188,7 @@ header .menu a:hover{
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 10%;
 }
 
