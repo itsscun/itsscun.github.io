@@ -103,7 +103,6 @@ header .menu a:hover {
   display: flex;
 }
 
-
 /* Separateur */
 
 .separator-bar {
@@ -125,22 +124,19 @@ header .menu a:hover {
   padding: 20px;
 }
 
-
-
 .img-menu {
   width: 315px;
   height: auto;
-  
 }
 .contain-img {
-  margin-right: 10%; 
+  margin-right: 10%;
 }
 
 .contain-img-stage {
   padding: 0 5%;
 }
 
-.logo-presentation{
+.logo-presentation {
   /* justify-content: space-between;
   display: flex;
   align-items: center; Ajoutez cette ligne pour aligner les images verticalement
@@ -148,13 +144,12 @@ header .menu a:hover {
   margin: 0;
 }
 
-.logo-presentationv2{
+.logo-presentationv2 {
   left: 10%;
   position: relative;
 }
 
-
-.titre-stage{
+.titre-stage {
   text-align: center;
 }
 
@@ -163,7 +158,7 @@ header .menu a:hover {
     padding: 1rem 5%;
   }
 
-  .titre-stage{
+  .titre-stage {
     text-align: center;
   }
 }
@@ -248,7 +243,6 @@ header .menu a:hover {
 
 /* Presentation */
 
-
 .home {
   width: 100%;
   height: 100vh;
@@ -316,7 +310,131 @@ header .menu a:hover {
   color: white;
 }
 
-.stage-presentation{
+
+.competence {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.competence-content {
+  color: #fff;
+  padding: 0 0 0 22%;
+  text-align: center;
+}
+
+.competence-content h1 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.competence-content h2 {
+  font-size: 45px;
+  font-weight: 650;
+}
+
+.competence-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.competence-content p {
+  font-size: 16px;
+  margin: 20px 0 40px;
+  color: white;
+}
+
+
+.competence-boxx {
+  width: 100%;
+  /* height: 60vh; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 0;
+  position: relative;
+  margin-top: -5%;
+}
+
+.competence-box-tkt{
+  color: #fff;
+  padding: 0 0 0 22%;
+  text-align: center;
+}
+
+.competence-box-tkt h1 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.competence-box-tkt h2 {
+  font-size: 45px;
+  font-weight: 650;
+}
+
+.competence-box-tkt h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.competence-box-tkt p {
+  font-size: 16px;
+  margin: 20px 0 40px;
+  color: white;
+}
+
+
+
+
+
+.competence-box{
+    font-size: 16px;
+    margin: 20px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.competence-box {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start;  */
+}
+
+.box-competence {
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.box-competence h4,
+.box-competence h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-competence ul {
+  list-style: none;
+  padding: 0;
+}
+
+.box-competence li {
+  margin-bottom: 5px;
+}
+
+
+
+
+.stage-presentation {
   width: 100%;
   /* height: 60vh;
   display: flex;
@@ -352,7 +470,6 @@ header .menu a:hover {
   margin: 20px 0 40px;
   color: white;
 }
-
 
 .cv {
   position: relative;
