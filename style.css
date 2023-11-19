@@ -278,7 +278,7 @@ header .menu a:hover {
   height: 60vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 0 10%;
 }
 
