@@ -278,13 +278,13 @@ header .menu a:hover {
   height: 60vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 10%;
 }
 
 .stage-content {
   color: #fff;
-  padding: 0 0 0 25%;
+  /* padding: 0 0 0 25%; */
 }
 
 .stage-content h1 {
