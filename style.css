@@ -643,8 +643,9 @@ header .menu a:hover {
 
 .project-info {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column;
+  justify-content: space-between; */
 }
 
 .project-info h1 {
