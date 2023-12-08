@@ -321,6 +321,47 @@ header .menu a:hover {
 }
 
 
+.vt {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.vt-content {
+  color: #fff;
+  /* padding: 0 0 0 22%; */
+  text-align: center;
+}
+
+.vt-content h1 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.vt-content h2 {
+  font-size: 45px;
+  font-weight: 650;
+}
+
+.vt-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.vt-content p {
+  font-size: 16px;
+  margin: 20px 0 40px;
+  color: white;
+}
+
+
+
+
 .competence {
   width: 100%;
     height: 60vh;
