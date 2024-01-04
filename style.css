@@ -124,6 +124,12 @@ header .menu a:hover {
   padding: 20px;
 }
 
+.content-separator-vt {
+  text-align: center;
+  padding: 20px;
+  margin-top:5%;
+}
+
 .img-menu {
   width: 315px;
   height: auto;
@@ -521,6 +527,50 @@ header .menu a:hover {
   margin: 20px 0 40px;
   color: white;
 }
+
+
+
+
+
+.vt-presentation {
+  width: 100%;
+  /* height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  padding: 0 10%;
+}
+
+.vt-presentation-content {
+  color: #fff;
+  /* padding: 0 0 0 25%; */
+}
+
+.vt-presentation-content h1 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.vt-presentation-content h2 {
+  font-size: 45px;
+  font-weight: 650;
+}
+
+.vt-presentation-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.vt-presentation-content p {
+  font-size: 16px;
+  margin: 20px 0 40px;
+  color: white;
+}
+
+
+
 
 
 
