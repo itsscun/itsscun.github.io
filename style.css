@@ -169,7 +169,7 @@ header .menu a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1423px) {
   .icons {
     display: inline-flex;
   }
