@@ -119,6 +119,13 @@ header .menu a:hover {
   margin-top: 0%; /* Ajoute une marge en haut pour décaler la barre */
 }
 
+.separator-barvt {
+  width: 100%;
+  height: 1px; /* Épaisseur de la barre */
+  background-color: #ddd; /* Couleur de la barre */
+  margin-top: 0%; /* Ajoute une marge en haut pour décaler la barre */
+}
+
 .content-separator {
   text-align: center;
   padding: 20px;
