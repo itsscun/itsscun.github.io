@@ -801,3 +801,21 @@ header .menu a:hover {
   margin: 20px 0 40px;
   color: white;
 } */
+
+
+.article-box {
+  border: 1px solid #ddd; /* Bordure */
+  border-radius: 10px; /* Coins arrondis */
+  padding: 20px; /* Espace intérieur */
+  margin-bottom: 20px; /* Marge en bas */
+}
+
+.article-box p {
+  font-weight: bold; /* Titre en gras */
+  font-size: 18px; /* Taille du titre */
+  margin-bottom: 10px; /* Marge en bas du titre */
+}
+
+.article {
+  display: inline-block;
+}
