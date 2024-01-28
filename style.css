@@ -137,6 +137,11 @@ header .menu a:hover {
   margin-top:5%;
 }
 
+.content-separator-vt2 {
+  text-align: center;
+  padding: 20px;
+}
+
 .img-menu {
   width: 315px;
   height: auto;
@@ -818,4 +823,9 @@ header .menu a:hover {
 
 .article {
   display: inline-block;
+}
+
+.small-image {
+  max-width: 100px; 
+  height: auto; 
 }
