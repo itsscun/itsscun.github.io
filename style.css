@@ -134,7 +134,7 @@ header .menu a:hover {
 .content-separator-vt {
   text-align: center;
   padding: 20px;
-  margin-top:5%;
+  margin-top: 5%;
 }
 
 .content-separator-vt2 {
@@ -254,8 +254,6 @@ header .menu a:hover {
     display: flex;
     justify-content: space-between;
   }
-
-  
 }
 
 /* Presentation */
@@ -290,7 +288,7 @@ header .menu a:hover {
   margin: 20px 0 40px;
 }
 
-.aptest{
+.aptest {
   width: 100%;
   height: 60vh;
   display: flex;
@@ -298,7 +296,6 @@ header .menu a:hover {
   /* justify-content: center; */
   /* padding: 0 10%; */
 }
-
 
 .stage {
   width: 100%;
@@ -337,14 +334,13 @@ header .menu a:hover {
   color: white;
 }
 
-
 .vt {
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 10%;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
 }
 
 .vt-content {
@@ -376,16 +372,13 @@ header .menu a:hover {
   color: white;
 }
 
-
-
-
 .competence {
   width: 100%;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 10%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
 }
 
 .competence-content {
@@ -417,19 +410,17 @@ header .menu a:hover {
   color: white;
 }
 
-
 .competence-boxx {
   width: 100%;
-    height: auto;
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-    padding: 0 0 0 0;
-    position: relative;
-    
+  height: auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 0 0 0 0;
+  position: relative;
 }
 
-.competence-box-tkt{
+.competence-box-tkt {
   color: #fff;
   text-align: center;
 }
@@ -457,22 +448,21 @@ header .menu a:hover {
   color: white;
 }
 
-
-.competence-box{
-    gap: 20px;
-    font-size: 16px;
-    /* margin: 20px 0 40px; */
-    display: flex;
-    justify-content: center;
-    text-align: left;
+.competence-box {
+  gap: 20px;
+  font-size: 16px;
+  /* margin: 20px 0 40px; */
+  display: flex;
+  justify-content: center;
+  text-align: left;
 }
 
 .competence-box {
   display: flex;
-    justify-content: space-between;
-    /* align-items: flex-start; */
-    gap: 20px;
-    text-align: left;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  gap: 20px;
+  text-align: left;
 }
 
 .box-competence {
@@ -485,9 +475,9 @@ header .menu a:hover {
 .box-competence h4,
 .box-competence h3 {
   font-size: 24px;
-    margin-bottom: 10px;
-    text-align: center;
-    text-decoration: underline;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .box-competence ul {
@@ -498,9 +488,6 @@ header .menu a:hover {
 .box-competence li {
   margin-bottom: 5px;
 }
-
-
-
 
 .stage-presentation {
   width: 100%;
@@ -539,10 +526,6 @@ header .menu a:hover {
   color: white;
 }
 
-
-
-
-
 .vt-presentation {
   width: 100%;
   /* height: 60vh;
@@ -579,11 +562,6 @@ header .menu a:hover {
   margin: 20px 0 40px;
   color: white;
 }
-
-
-
-
-
 
 .cv {
   position: relative;
@@ -732,8 +710,6 @@ header .menu a:hover {
   color: white;
 }
 
-
-
 .project-container {
   width: 80%;
   max-width: 1200px;
@@ -772,8 +748,7 @@ header .menu a:hover {
   }
 }
 
-
-.ap-police{
+.ap-police {
   color: #fff;
   padding: 0 0 0 34%;
 }
@@ -806,7 +781,6 @@ header .menu a:hover {
   color: white;
 } */
 
-
 .article-box {
   border: 1px solid #ddd; /* Bordure */
   border-radius: 10px; /* Coins arrondis */
@@ -825,6 +799,7 @@ header .menu a:hover {
 }
 
 .small-image {
-  max-width: 100px; 
-  height: auto; 
+  max-width: 100px;
+  height: auto;
 }
+
