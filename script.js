@@ -20,22 +20,22 @@ let calcScrollValue = () => {
     let scrollProgress = document.getElementById("progress");
     let progressValue = document.getElementById("progress-value");
     let pos = document.documentElement.scrollTop;
-    let calcHeight = 
-    document.documentElement.scrollHeight - 
-    document.documentElement.clientHeight;
+    let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     
     let scrollValue = Math.round((pos * 100) / calcHeight);
 
-    if(pos > 100) {
+    if (pos > 100) {
         scrollProgress.style.display = "grid";
-    }
-    else{
+    } else {
         scrollProgress.style.display = "none";
     }
+
     scrollProgress.addEventListener("click", () => {
         document.documentElement.scrollTop = 0;
     });
-    scrollProgress.style.background = 'conic-gradient(#03cc65 ${scrollValue}%, #D7D7D7 ${scrollValue}%)';
+
+    let gradientValue = `conic-gradient(#03cc65 ${scrollValue}%, #D7D7D7 ${scrollValue}% 100%)`;
+    scrollProgress.style.background = gradientValue;
 };
 
 window.onscroll = calcScrollValue;
