@@ -13,6 +13,10 @@ body {
   background-attachment: fixed;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -803,3 +807,28 @@ header .menu a:hover {
   height: auto;
 }
 
+#progress{
+  background-color: #1952A0;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0 0.2);
+  cursor: pointer;
+}
+
+#progress-value{
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #001a2e;
+}
